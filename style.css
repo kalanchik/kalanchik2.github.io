@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+	background-color: #000;
+	font-family: Jost, sans-serif;
+	font-size: large;
+	text-align: center;
+	color: #ffffff;
+
+}
+
+form {
+	background-color: #000;
+	box-shadow: 0 0 6px #ffff;
+	max-width: 1000px;
+	margin: 50px auto;
+	padding: 5px 30px;
+}
+
+.content {
+	background-color: #000;
+	box-shadow: 0 0 6px #ffff;
+	max-width: 1000px;
+	margin: 50px auto;
+	padding: 5px 30px;
+}
+
+.form-control {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.color-palette {
+	display: flex;
+	grid-gap: 0rem;
+	justify-content: center;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.color-palette__swatch1 {
+	background-color: #ffffff;
+	align-items: flex-end;
+	border: 2px solid white;
+	display: flex;
+	width: 50%;
+	min-height: 11rem;
+	max-height: 12rem;
+	justify-content: center;
+	transition: transform .2s ease-out
+}
+
+.color-palette__swatch2 {
+	background-color: #000;
+	border: 2px solid white;
+	align-items: flex-end;
+	display: flex;
+	width: 50%;
+	min-height: 12rem;
+	max-height: 12rem;
+	justify-content: center;
+	transition: transform .2s ease-out
+}
+
+.color-palette__swatch1:hover {
+	transform: scale(1.05)
+}
+
+.color-palette__swatch2:hover {
+	transform: scale(1.05)
+}
+
+.color-palette__label1 {
+	color: #000;
+	font-size: 1.05rem;
+	padding: 1rem .5rem;
+	text-align: center;
+	width: 100%
+}
+
+.color-palette__label2 {
+	font-size: 1.05rem;
+	padding: 1rem .5rem;
+	text-align: center;
+	width: 100%
+}
+
+.color-palette__label1 span,
+.color-palette__label1 strong {
+	display: block;
+	font-family: Jost;
+
+}
+
+.color-palette__label2 span,
+.color-palette__label2 strong {
+	display: block;
+	font-family: Jost;
+}
+
+.titles {
+	text-align: start;
+	font-size: 1.3em;
+}
+
+
+.titles.head {
+	margin-bottom: 12px;
+}
+
+.titles.buttons {
+	margin-bottom: 12px;
+}
+
+.titles.icon {
+	margin-bottom: 12px;
+}
+
+.item {
+	margin-bottom: 20px;
+}
+
+.titles1 {
+	text-align: start;
+	font-size: 1.3em;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.row1 {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.container {
+	flex: 2;
+	display: inline-block;
+}
+
+
+
+
+.button {
+	font-family: Jost;
+	font-size: medium;
+	color: #000;
+	border: 2px solid black;
+	padding: 9px 32px;
+	cursor: pointer;
+}
+
+.static {
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+.static:hover {
+	background-color: #000;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.hover {
+	background-color: #000;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.fonts {
+	position: relative;
+	width: 100%;
+	text-align: left;
+}
+
+.pb-30 {
+	font-family: Jost;
+	font-weight: 600;
+	font-size: 4em;
+}
+
+.pb-31 {
+	font-family: Jost;
+	font-style: regular;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.pb-32 {
+	font-family: Jost;
+	font-style: thin;
+	font-size: 1em;
+}
+
+.pb-33 {
+	font-family: Jost;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.header {
+	font-family: Jost;
+	font-size: medium;
+	font-style: regular;
+	color: #ffff;
+	text-decoration: underline;
+	border: 2px solid black;
+	cursor: pointer;
+	background-color: #000;
+}
+
+.header:hover {
+	text-decoration: none;
+}
+
+.radio1 {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.row.slider {
+	display: flex;
+	align-items: center;
+	margin-left: 0;
+
+}
+
+
+.container.multi.arrow {
+	display: inline-block;
+}
+
+.container.slider {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.arrow_btn {
+	background-color: transparent;
+	border: none;
+}
+
+.arrow_btn.left {
+	transform: rotate(180deg);
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+}
+
+.cc {
+	display: inline-block;
+}
+
+.modal-content {
+	background-color: #000;
+	border: 2px solid white;
+	padding: 9px 32px;
+}
+
+.close-btn {
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 18px;
+}
+
+.hover_btn {
+	background-color: #fff;
+	color: #000;
+	border-color: #ffffff;
+	font-family: Jost;
+	font-size: medium;
+	border: 2px solid #ffffff;
+	padding: 9px 32px;
+	cursor: pointer;
+}
+
+.hover_btn:hover {
+	background-color: #000;
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
+.textform {
+	text-align: start;
+	color: #fff;
+	font-size: 20px;
+	background-color: #000;
+	border: 2px solid #fff;
+	width: 200px;
+	height: 50px;
+}
+
+.textform.error {
+	border: 2px solid #CA0202F5;
+}
+
+.error_text {
+	width: 70px;
+	font-size: 23px;
+	color: #CA0202F5;
+}
+
+.container.flex {
+	flex: 10;
+}

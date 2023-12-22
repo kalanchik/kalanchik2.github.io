@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		plants
+	</title>
+
+</head>
+
+<body>
+	<p><img src="logo.png" width="350" height="200"></p>
+
+	<div class="form-control">
+		<label for="name">UI KIT PLANTS</label>
+	</div>
+
+	<div class="content">
+		<div class="row">
+			<div class="container">
+				<div class="item">
+					<div class="titles1">Fonts</div>
+					<div class="fonts">
+						<div class="pb-30">TITLE 79</div>
+						<div class="pb-31">services 43</div>
+						<div class="pb-32">Main information 26</div>
+						<div class="pb-33">button 26</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="titles">Colors</div>
+
+				<div class="color-palette">
+					<div class="color-palette__swatch1">
+						<div class="color-palette__label1"><span>WHITE</span> #ffffff</div>
+					</div>
+					<div class="color-palette__swatch2">
+						<div class="color-palette__label2"><span>BLACK</span> #000000</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="container">
+				<div class="titles buttons">Buttons</div>
+				<div class="titles">
+					<input value="Static button" type="button" class="button static">
+					<input value="Hover button" type="button" class="button hover">
+				</div>
+			</div>
+			<div class="container multi">
+				<div class="titles head">Header</div>
+				<div class="titles">
+					<input type="button" class="header" value="подбор">
+					<input type="button" class="header" value="коллекции">
+					<input type="button" class="header" value="растения">
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="container multi icon">
+				<div class="titles">Variants</div>
+				<div class="radio1">
+					<input type="radio" value="selected" checked>
+					<label for="selected">selected</label>
+					<p><input type="radio" value="not selected">
+						<label for="selected">not selected</label>
+					</p>
+				</div>
+			</div>
+			<div class="container multi icon">
+				<div class="titles icon">Icons</div>
+				<div class="titles">
+					<img src="icons.png">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="container">
+				<div class="titles buttons">Modal</div>
+				<div class="titles">
+					<input value="добавить в корзину" type="button" class="hover_btn" onclick="openModal()">
+				</div>
+			</div>
+			<div class="container">
+				<div class="titles buttons">Inputs</div>
+				<div class="titles">
+					<input value="|" type="button" class="textform error">
+					<input value="|" type="button" class="textform">
+					<div class="error_text">Error</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="titles buttons">Animations</div>
+		<div class="container slider">
+			<div class="container multi arrow">
+				<div class="arrow left">
+					<img src="arrow.png" alt="" class="arrow_btn left">
+				</div>
+			</div>
+			<div class="container multi arrow">
+				<div class="slider">
+					<img class="room" src="room1.png" height="240px" alt="">
+				</div>
+			</div>
+			<div class="container multi arrow">
+				<div class="arrow right">
+					<img src="arrow.png" alt="" class="arrow_btn right">
+				</div>
+			</div>
+			<div class="container flex"></div>
+		</div>
+
+		<div class="cc">
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<span class="close-btn" onclick="closeModal()">&times;</span>
+					<p>товар добавлен в корзину</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<script src="main.js"></script>
+</body>
+
+</html>
